@@ -13,8 +13,8 @@ public class Print_0_10_Without_Loop {
 		printService(start,end);
 		
 		//using Stream
-		IntStream.rangeClosed(start, end)  
-        .forEach(System.out::println);  
+		IntStream.rangeClosed(start, end)
+			.forEach(System.out::println);  
 		
 		
 	}
